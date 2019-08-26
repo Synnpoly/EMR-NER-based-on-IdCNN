@@ -38,6 +38,9 @@ def main(is_train):
         train()          # 训练模式
     else:
         evaluate_line()  # 测试模式
+if __name__ == "__main__":
+    is_train = True
+    tf.app.run(main(is_train))
 ```
 - model.py 神经网络模型设计；
 - data_utils.py 从语料库生成训练可用数据的一些工具函数，如创建字典，maps，检查tags标注格式等的实现；
