@@ -1,6 +1,7 @@
 # EMR-NER-based-on-IdCNN
 这是我学习的一个NLP入门项目，基于神经网络，主要使用膨胀卷积神经网络(ID-CNN)和条件随机场CRF实现的电子病历命名实体识别(NER)。<br>
 用到的工具：
+- [numpy](https://www.numpy.org/)
 - [TensorFlow](https://tensorflow.google.cn/overview/?hl=zh_cn)
 - [jieba中文分词工具包](https://github.com/fxsjy/jieba)
 
