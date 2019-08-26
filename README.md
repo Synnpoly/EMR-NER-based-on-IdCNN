@@ -27,7 +27,7 @@ example.train
 >晕 I-SYM
 
 ## 第二部分是用ID-CNN模型训练电子病历NER。
-[原理参考](https://blog.csdn.net/Kaiyuan_sjtu/article/details/89143573)
+[原理参考](https://blog.csdn.net/Kaiyuan_sjtu/article/details/89143573)  
 **代码文件**
 - main.py 主文件  
 ```python
@@ -44,4 +44,4 @@ def main(is_train):
 - utils.py 其他工具函数，如生成/清空paths，生成log，由ckpt创建模型等；
 - loader.py 预处理和导入数据。
 
-自用代码仓，还有很多问题需要改进。
+很多问题需要修改特别是test模块，包括训练中的可视化展示不完整，要努力学习呀。
